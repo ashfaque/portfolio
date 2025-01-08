@@ -91,7 +91,8 @@
           <p class="text-muted">
             A Python Specialist,
             <!-- <p class="web"> Web Developer</p> -->
-            with a passion for crafting sophisticated solutions that not only solve problems but do so in innovative ways. I thrive on projects that blend creativity with technical mastery, leaving a mark of elegance in every line of code.
+            with a passion for crafting sophisticated solutions that not only solve problems but do so in innovative ways. I thrive on projects that blend creativity with technical
+            mastery, leaving a mark of elegance in every line of code.
           </p>
 
           <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
@@ -247,7 +248,12 @@
           <div class="heading mt-5 mt-md-3">
             <small>My Skills</small>
             <h3>Beautiful & Unique Digital Experiences</h3>
-            <p class="text-muted">As a Python specialist, I’m driven by the challenge of creating elegant, efficient solutions that solve complex problems. With a keen eye for detail and a passion for clean code, I craft solutions that not only work but exceed expectations. My expertise lies in seamlessly blending creativity with technical skills, making sure every project I touch carries a unique, innovative touch. I thrive on tackling projects that demand both technical depth and a creative mindset, constantly pushing the boundaries of what’s possible. Always eager to learn and grow, I believe in the power of technology to transform ideas into impactful results.</p>
+            <p class="text-muted">
+              As a Python specialist, I’m driven by the challenge of creating elegant, efficient solutions that solve complex problems. With a keen eye for detail and a passion for clean
+              code, I craft solutions that not only work but exceed expectations. My expertise lies in seamlessly blending creativity with technical skills, making sure every project I
+              touch carries a unique, innovative touch. I thrive on tackling projects that demand both technical depth and a creative mindset, constantly pushing the boundaries of what’s
+              possible. Always eager to learn and grow, I believe in the power of technology to transform ideas into impactful results.
+            </p>
             <!-- <p class="text-muted">Quia voluptas sit aspernatur aut odit aut fugit, sed ruiano consequntar magni dolores.</p> -->
             <!-- <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
               <a href="Ashfaque_Alam_Resume.pdf" download="Ashfaque_Alam_Resume" style="text-decoration: none; color: #fff"> Download Resume </a>
@@ -677,19 +683,22 @@
         <!-- Contact Form -->
         <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
           <div class="contact-form">
-            <div class="mb-3">
-              <input type="text" class="form-control" id="FormControlInputName" placeholder="Name" />
-            </div>
-            <div class="mb-3">
-              <input type="email" class="form-control" id="FormControlInputEmail" placeholder="E-mail" />
-            </div>
-            <div class="mb-3">
-              <input type="text" class="form-control" id="FormControlInputMobile" placeholder="Mobile No." />
-            </div>
-            <div class="mb-3">
-              <textarea class="form-control" id="FormControlTextareaMsg" placeholder="Message" rows="5"></textarea>
-            </div>
-            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">Submit</button>
+            <!-- https://formsubmit.co/el/wonebu -->
+            <form action="https://formsubmit.co/e8f22248746a0a7865d3a6a280171b39" method="POST">
+              <div class="mb-3">
+                <input type="text" name="name" class="form-control" id="FormControlInputName" placeholder="Name" required />
+              </div>
+              <div class="mb-3">
+                <input type="email" name="email" class="form-control" id="FormControlInputEmail" placeholder="E-mail" required />
+              </div>
+              <div class="mb-3">
+                <input type="text" name="mobile" class="form-control" id="FormControlInputMobile" placeholder="Mobile No." />
+              </div>
+              <div class="mb-3">
+                <textarea name="message" class="form-control" id="FormControlTextareaMsg" placeholder="Message" rows="5" required></textarea>
+              </div>
+              <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">Submit</button>
+            </form>
           </div>
         </div>
       </div>
